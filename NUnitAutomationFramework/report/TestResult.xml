@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<test-run id="2" testcasecount="2" result="Passed" total="2" passed="2" failed="0" inconclusive="0" skipped="0" asserts="4" engine-version="3.9.0.0" clr-version="4.0.30319.42000" start-time="2019-03-07 03:20:15Z" end-time="2019-03-07 03:20:16Z" duration="0.607983">
+  <command-line><![CDATA["D:\Work\NUnit.org\nunit-console\nunit3-console.exe" --work:NUnitAutomationFramework\report .\NUnitAutomationFramework.csproj]]></command-line>
+  <test-suite type="Assembly" id="1-1003" name="NUnitAutomationFramework.dll" fullname="NUnitAutomationFramework.dll" runstate="Runnable" testcasecount="2" result="Passed" start-time="2019-03-07 03:20:16Z" end-time="2019-03-07 03:20:16Z" duration="0.057635" total="2" passed="2" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="4">
+    <environment framework-version="3.11.0.0" clr-version="4.0.30319.42000" os-version="Microsoft Windows NT 10.0.17134.0" platform="Win32NT" cwd="D:\Work\Projects\NUnitAutomationFramework\NUnitAutomationFramework" machine-name="DESKTOP-L11SV1V" user="Ben" user-domain="DESKTOP-L11SV1V" culture="en-US" uiculture="en-US" os-architecture="x64" />
+    <settings>
+      <setting name="BasePath" value="D:\Work\Projects\NUnitAutomationFramework\NUnitAutomationFramework\bin\Debug\" />
+      <setting name="DisposeRunners" value="True" />
+      <setting name="WorkDirectory" value="NUnitAutomationFramework\report" />
+      <setting name="ImageRuntimeVersion" value="4.0.30319" />
+      <setting name="ImageTargetFrameworkName" value=".NETFramework,Version=v4.6.1" />
+      <setting name="ImageRequiresX86" value="False" />
+      <setting name="ImageRequiresDefaultAppDomainAssemblyResolver" value="False" />
+      <setting name="NumberOfTestWorkers" value="8" />
+    </settings>
+    <properties>
+      <property name="_PID" value="10896" />
+      <property name="_APPDOMAIN" value="domain-9e28d552-NUnitAutomationFramework.csproj" />
+    </properties>
+    <test-suite type="TestSuite" id="1-1004" name="NUnitAutomationFramework" fullname="NUnitAutomationFramework" runstate="Runnable" testcasecount="2" result="Passed" start-time="2019-03-07 03:20:16Z" end-time="2019-03-07 03:20:16Z" duration="0.039377" total="2" passed="2" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="4">
+      <test-suite type="TestFixture" id="1-1000" name="Class1" fullname="NUnitAutomationFramework.Class1" classname="NUnitAutomationFramework.Class1" runstate="Runnable" testcasecount="2" result="Passed" start-time="2019-03-07 03:20:16Z" end-time="2019-03-07 03:20:16Z" duration="0.034751" total="2" passed="2" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="4">
+        <test-case id="1-1001" name="TestAdd" fullname="NUnitAutomationFramework.Class1.TestAdd" methodname="TestAdd" classname="NUnitAutomationFramework.Class1" runstate="Runnable" seed="565334431" result="Passed" start-time="2019-03-07 03:20:16Z" end-time="2019-03-07 03:20:16Z" duration="0.021695" asserts="2" />
+        <test-case id="1-1002" name="TestSubtract" fullname="NUnitAutomationFramework.Class1.TestSubtract" methodname="TestSubtract" classname="NUnitAutomationFramework.Class1" runstate="Runnable" seed="23030219" result="Passed" start-time="2019-03-07 03:20:16Z" end-time="2019-03-07 03:20:16Z" duration="0.000244" asserts="2" />
+      </test-suite>
+    </test-suite>
+  </test-suite>
+</test-run>
